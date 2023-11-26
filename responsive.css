@@ -1,0 +1,15 @@
+@media  only screen and (max-width:768px) {
+    .full{
+        grid-template-columns: 1fr;
+    }
+    .tour{
+        grid-template-columns: 1fr;
+    }
+    .tour .item:first-of-type{
+        margin-left: 1px;
+    }
+    .full .item{
+        border: 0;
+        color: blueviolet;
+    }
+}
